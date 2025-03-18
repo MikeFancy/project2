@@ -14,7 +14,7 @@ body {
 }
 
 .firstinefeather {
-
+    transition-duration: 3s;
 }
 
 .secondlinefeather {
@@ -30,7 +30,8 @@ body {
 }
 
 .firstlinefeather:hover {
-
+    transform: translate(100px, 100px);
+    transition-duration: 3s;
 }
 
 .secondlinefeather:hover {
