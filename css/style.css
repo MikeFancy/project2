@@ -22,30 +22,33 @@ body {
 }
 
 .thirdlinefeather {
-
+    transition-duration: 3s;
 }
 
 .fourthlinefeather {
-
+    transition-duration: 3s;
 }
 
 .firstlinefeather:hover {
     transform: translate(100px, 100px);
     transition-duration: 3s;
-    animation-fill-mode: both;
-
+    animation-fill-mode:;
 }
 
 .secondlinefeather:hover {
     transform: translate(200px,200px);
     transition-duration: 3s;
-    animation-fill-mode: both;
+    animation-fill-mode: forwards;
 }
 
 .thirdlinefeather:hover {
-
+    transform: translate(300px, 300px);
+    transition-duration: 3s;
+    animation-fill-mode: forwards;
 }
 
 .fourthlinefeather:hover {
-
+    transform: translate(400px, 400px);
+    transition-duration: 3s;
+    animation-fill-mode: forwards;
 }
