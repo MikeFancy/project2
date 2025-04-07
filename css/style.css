@@ -17,14 +17,13 @@ body {
     transform: translate(100px, 100px);
     transition-duration: 3s;
     animation-fill-mode: forwards;
-    animation-play-state: paused;
 }
 
 .secondlinefeather:hover {
     transform: translate(200px,200px);
     transition-duration: 3s;
     animation-fill-mode: forwards;
-    animation-play-state: paused;
+    animation-play-state: paused
 }
 
 .thirdlinefeather:hover {
