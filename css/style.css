@@ -32,7 +32,7 @@ body {
 .firstlinefeather:hover {
     transform: translate(100px, 100px);
     transition-duration: 3s;
-    animation-fill-mode:;
+    animation-fill-mode:forwards;
 }
 
 .secondlinefeather:hover {
@@ -49,6 +49,54 @@ body {
 
 .fourthlinefeather:hover {
     transform: translate(400px, 400px);
+    transition-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.secondwing {
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: white;
+}
+
+.firstlinefeather2 {
+    transition-duration: 3s;
+}
+
+.secondlinefeather2 {
+    transition-duration: 3s;
+}
+
+.thirdlinefeather2 {
+    transition-duration: 3s;
+}
+
+.fourthlinefeather2 {
+    transition-duration: 3s;
+}
+
+.firstlinefeather2:hover {
+    transform: translate(200px,200px);
+    transition-duration: 3;
+    animation-fill-mode: forwards;
+}
+
+.secondlinefeather2:hover {
+    transform: translate(300px,300px);
+    transition-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.thirdlinefeather2:hover {
+    transform: translate(400px,400px);
+    transition-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.fourthlinefeather2:hover {
+    transform: translate(500px,500px);
     transition-duration: 3s;
     animation-fill-mode: forwards;
 }
