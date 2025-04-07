@@ -13,32 +13,18 @@ body {
     color: white;
 }
 
-.firstinefeather {
-    transition-duration: 3s;
-}
-
-.secondlinefeather {
-    transition-duration: 3s;
-}
-
-.thirdlinefeather {
-    transition-duration: 3s;
-}
-
-.fourthlinefeather {
-    transition-duration: 3s;
-}
-
 .firstlinefeather:hover {
     transform: translate(100px, 100px);
     transition-duration: 3s;
-    animation-fill-mode:forwards;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
 }
 
 .secondlinefeather:hover {
     transform: translate(200px,200px);
     transition-duration: 3s;
     animation-fill-mode: forwards;
+    animation-play-state: paused;
 }
 
 .thirdlinefeather:hover {
@@ -49,6 +35,12 @@ body {
 
 .fourthlinefeather:hover {
     transform: translate(400px, 400px);
+    transition-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.fifthlinefeather:hover {
+    transform: translate();
     transition-duration: 3s;
     animation-fill-mode: forwards;
 }
